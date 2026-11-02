@@ -113,6 +113,8 @@ the acceleration direction before plotting it.
 
 ## Part 3 — Aerodynamics and propulsion
 
+Available: [Module 3 lesson and experiment](modules/03-aerodynamics/index.md).
+
 **Outcome:** Connect airflow and aircraft geometry to lift, drag, and thrust.
 
 - Relative airflow, air density, dynamic pressure, and angle of attack.

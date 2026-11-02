@@ -15,3 +15,6 @@ evolves.
 - [Mini Plank JSBSim course design](learning/mini-plank-jsbsim-course.md)
   — revised 2026-11-02 for a Python-proficient aviation beginner, with expanded
   physics, measurement, staged modeling, and validation milestones.
+
+- [Module 3 aerodynamics and propulsion](learning/module-3-aerodynamics.md)
+  — 2026-11-02, airflow, coefficients, propulsion, and a checked lift-demand plot.

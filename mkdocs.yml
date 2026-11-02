@@ -32,6 +32,7 @@ nav:
   - Course modules:
     - "0 — Orientation": modules/00-orientation/index.md
     - "1 — Fixed-wing language": modules/01-flight-language/index.md
+    - "3 — Aerodynamics and propulsion": modules/03-aerodynamics/index.md
   - "JSBSim Learn to Fly":
     - 00-intro: modules/model_0/index.md
     - 01-install: jsbsim/01-install.md

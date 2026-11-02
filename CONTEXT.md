@@ -24,3 +24,12 @@ reference airframe.
 - **Reference airframe**: the Mini Plank data supplied by Flightory. Published
   dimensions and performance are initial assumptions to be measured,
   parameterized, and challenged during the course.
+
+- **Dynamic pressure**: airflow force scale, q = ½ρV², using true airspeed.
+- **Aerodynamic coefficient**: dimensionless force or moment description tied
+  to reference dimensions and specified flow conditions.
+- **Required lift coefficient**: the coefficient demanded by an assumed force
+  balance; it does not establish achievable lift, trim, or a stall boundary.
+- **Wing loading**: weight divided by reference wing area, in N/m².
+- **Propeller efficiency**: useful thrust power divided by shaft power in
+  forward powered flight, distinct from motor electrical efficiency.
