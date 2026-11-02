@@ -1,0 +1,43 @@
+site_name: JSBSim Learn to Fly
+theme:
+  name: material
+  favicon: images/jsbsim-favicon.png
+  features:
+    - content.code.copy
+extra_javascript:
+  - javascripts/quiz.js
+  - javascripts/mathjax.js
+extra_css:
+  - stylesheets/quiz.css
+  - stylesheets/mermaid.css
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.snippets:
+      base_path:
+        - .
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+nav:
+  - Home: index.md
+  - Roadmap: 
+    - "Godot Render": JSBSim_Godot_Learning_Roadmap.md
+    - rust: JSBSim_Rust_FCU_Design.md
+  - Syllabus: syllabus.md
+  - Course modules:
+    - "0 — Orientation": modules/00-orientation/index.md
+    - "1 — Fixed-wing language": modules/01-flight-language/index.md
+  - "JSBSim Learn to Fly":
+    - 00-intro: modules/model_0/index.md
+    - 01-install: jsbsim/01-install.md
+    - 02-modeling: jsbsim/02-modeling.md
+    - 03-missions: jsbsim/03-missions.md
+    - 04-analysis: jsbsim/04-analysis.md
+    - 05-advanced: jsbsim/05-advanced.md
+    - 06-contribute: jsbsim/06-contribute.md
+
